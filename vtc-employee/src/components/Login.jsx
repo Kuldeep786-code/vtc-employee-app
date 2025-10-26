@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { supabase } from '../supabaseClient'
+// DEFAULT IMPORT USE KAREIN (import supabase without {})
+import supabase from '../supabaseClient'
 
 export default function Login() {
   const [email, setEmail] = useState('')
